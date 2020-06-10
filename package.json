@@ -16,7 +16,10 @@
     "typescript": "~3.7.2"
   },
   "scripts": {
-    "start": "react-scripts start",
+    "build:css": "postcss src/styles/tailwind.css -o src/styles/main.css",
+    "prestart": "npm run build:css",
+    "start": "cross-env BROWSER=none react-scripts start",
+    "prebuild": "cross-env NODE_ENV=production npm run build:css",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
@@ -35,5 +38,11 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "autoprefixer": "^9.8.0",
+    "cross-env": "^7.0.2",
+    "postcss-cli": "^7.1.1",
+    "tailwindcss": "^1.4.6"
   }
 }
