@@ -1,6 +1,7 @@
 import React from "react";
 import "./styles/main.css";
 import ReactFullpage from "@fullpage/react-fullpage";
+import Block1 from "./Block1";
 
 function App() {
   return (
@@ -11,6 +12,9 @@ function App() {
       render={({ state, fullpageApi }) => {
         return (
           <ReactFullpage.Wrapper>
+            <div className="section">
+              <Block1 />
+            </div>
             <div className="section">
               <p>Section 1 (welcome to fullpage.js)</p>
               <button onClick={() => fullpageApi.moveSectionDown()}>

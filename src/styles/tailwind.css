@@ -1,7 +1,9 @@
 @tailwind base;
 /* Your own custom base styles */
+
 body {
   @apply antialiased;
+  font-family: "Utopia";
 }
 
 @tailwind components;
