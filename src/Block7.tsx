@@ -8,6 +8,7 @@ const Block7 = () => {
         src={process.env.PUBLIC_URL + "/videos/sav_1.mp4"}
         autoPlay
         loop
+        controls
         muted
       />
     </div>

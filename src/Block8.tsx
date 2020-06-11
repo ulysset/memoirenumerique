@@ -3,7 +3,7 @@ import React from "react";
 const Block8 = () => {
   return (
     <div className="bg-grey2 h-full w-full text-white ">
-      <div className="container flex flex-row justify-between pl-12 pt-12">
+      <div className=" flex flex-row justify-between pl-12 pt-12">
         <p className="w-1/4" style={{ fontSize: ".6rem" }}>
           Pala consult ortemque atquerudem patquemor ut L. Se- ritinatu viu que
           publi etimillarit. Bit. Habefen diisquem pat, me clatum, num cupio,
@@ -27,9 +27,10 @@ const Block8 = () => {
         </p>
         <video
           className="w-1/2"
-          src={process.env.PUBLIC_URL + "/videos/sav_1.mp4"}
+          src={process.env.PUBLIC_URL + "/videos/recherches-mouvement10.mp4"}
           autoPlay
           loop
+          controls
           muted
         />
       </div>

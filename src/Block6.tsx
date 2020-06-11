@@ -9,6 +9,7 @@ const Block6 = () => {
           src={process.env.PUBLIC_URL + "/videos/metal.mp4"}
           autoPlay
           loop
+          controls
           muted
         />
         <p className="text-caption text-xs">Fig 4: Mémoire défaillante</p>
@@ -19,6 +20,7 @@ const Block6 = () => {
         src={process.env.PUBLIC_URL + "/videos/digital-dark-age.mp4"}
         autoPlay
         loop
+        controls
         muted
       />
       <p className="w-1/3" style={{ fontSize: ".6rem", maxWidth: "14rem" }}>

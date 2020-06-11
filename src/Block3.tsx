@@ -10,6 +10,7 @@ const Block3 = () => {
           src={process.env.PUBLIC_URL + "/videos/fraag_1.mp4"}
           autoPlay
           loop
+          controls
           muted
         />
         <p className="text-caption" style={{ fontSize: ".6rem" }}>

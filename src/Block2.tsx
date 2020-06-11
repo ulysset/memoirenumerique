@@ -21,6 +21,7 @@ const Block2 = () => {
           src={process.env.PUBLIC_URL + "/videos/frag6_1.mp4"}
           autoPlay
           loop
+          controls
           muted
         />
       </span>
@@ -42,6 +43,7 @@ const Block2 = () => {
         src={process.env.PUBLIC_URL + "/videos/hommefusionne.mp4"}
         autoPlay
         loop
+        controls
         muted
       />
       <span>Qu'est</span>
@@ -58,6 +60,7 @@ const Block2 = () => {
         src={process.env.PUBLIC_URL + "/videos/drapmouvement.mp4"}
         autoPlay
         loop
+        controls
         muted
       />
       <span>Pouvons-nous comparer mémoire biologique et mémoire numérique</span>
