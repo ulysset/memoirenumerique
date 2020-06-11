@@ -6,6 +6,7 @@ const Block3 = () => {
       <div className="flex flex-col flex-1 items-center ">
         <video
           className="w-3/4"
+          style={{ maxHeight: "90%" }}
           src={process.env.PUBLIC_URL + "/videos/fraag_1.mp4"}
           autoPlay
           loop

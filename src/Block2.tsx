@@ -13,7 +13,7 @@ const Block2 = () => {
       <span>à</span>
       <span>l'</span>
       <span>infini</span>
-      <span>?</span>
+      <span className="text-pixel">?</span>
       <span className="inline-block">
         <video
           className=" inline-block"
@@ -33,7 +33,8 @@ const Block2 = () => {
       <span>fusionner</span>
       <span>avec</span>
       <span>la</span>
-      <span>machine?</span>
+      <span>machine</span>
+      <span className="text-pixel">?</span>
 
       <video
         className=" inline-block"
@@ -49,7 +50,8 @@ const Block2 = () => {
       <span>le</span>
       <span>digital</span>
       <span>dark</span>
-      <span>age?</span>
+      <span>age</span>
+      <span className="text-pixel">?</span>
       <video
         className=" inline-block"
         style={{ width: "2ch" }}
@@ -58,10 +60,10 @@ const Block2 = () => {
         loop
         muted
       />
-      <span>
-        Pouvons-nous comparer mémoire biologique et mémoire numérique?{" "}
-      </span>
-      <span>Il y a t il un appauvrissement du souvenir?</span>
+      <span>Pouvons-nous comparer mémoire biologique et mémoire numérique</span>
+      <span className="text-pixel">?</span>
+      <span>Il y a t il un appauvrissement du souvenir</span>
+      <span className="text-pixel">?</span>
     </div>
   );
 };

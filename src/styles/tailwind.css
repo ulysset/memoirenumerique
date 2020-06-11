@@ -1,7 +1,11 @@
 @tailwind base;
 /* Your own custom base styles */
 body {
-  font-family: "Utopia";
+  font-family: "Utopia", Cambria, Cochin, Georgia, Times, "Times New Roman",
+    serif;
+}
+.text-pixel {
+  font-family: "188 Sans Pixel 70", "Courier New", Courier, monospace;
 }
 
 @tailwind components;
