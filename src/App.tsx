@@ -3,6 +3,7 @@ import "./styles/main.css";
 import ReactFullpage from "@fullpage/react-fullpage";
 import Block1 from "./Block1";
 import Block2 from "./Block2";
+import Block3 from "./Block3";
 
 function App() {
   return (
@@ -13,6 +14,9 @@ function App() {
       render={({ state, fullpageApi }) => {
         return (
           <ReactFullpage.Wrapper>
+            <div className="section">
+              <Block3 />
+            </div>
             <div className="section">
               <Block1 />
             </div>
