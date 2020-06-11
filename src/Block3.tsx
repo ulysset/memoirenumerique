@@ -2,7 +2,7 @@ import React from "react";
 
 const Block3 = () => {
   return (
-    <div className="flex justify-between p-4">
+    <div className="container flex justify-between p-4">
       <div className="flex flex-col flex-1 items-center ">
         <video
           className="w-3/4"
@@ -12,31 +12,34 @@ const Block3 = () => {
           loop
           muted
         />
-        <p style={{ fontSize: ".5rem" }}>
+        <p className="text-caption" style={{ fontSize: ".6rem" }}>
           Fig 1: Fragment immatériel, extrait de la courte nouvelle Funes ou la
           mémoire.
         </p>
       </div>
       <p className="w-1/4" style={{ fontSize: ".6rem", lineHeight: ".8rem" }}>
-        Pala consult ortemque atquerudem patquemor ut L. Se- ritinatu viu que
-        publi etimillarit. Bit. Habefen diisquem pat, me clatum, num cupio,
-        spio, noxi- mantium se ex nonsulos nihilin suleris, quondi iam int. Udem
-        ni- mulis, quem, Catuspio essilinat, contre alem actum hordi is con
-        interecrid sendam parita, et? Qua no. Perratiae conihicid prisse pro-
-        rus. Cus hem ingulto rteatiquo inatu qui iam auterra equium des et
-        virmissil ur que maionul ha- larei pos hoccio curs inpravenit, Ti. To
-        consum, con hocchus aus et rei ca non anum uribunt L. C. Mulaberis
-        bonterisquo hor ut ad Catquodi cla que tesus fachum menericam dius int.
-        Sentiu sed ciam. Quos publinceste fautus- quem interistim etia nored mo
-        tampontem opopublic re tem si- manum labente moere, num ex nicepsente
-        atus rei publicae notis losturbis. Actem, clemplin tenti simususu
-        inicaediis? notio Catilina, mum ia cotius. Efecons ultorsulicae acer-
-        tem iam mur, que rebatemei cae condientis faudeti lientim ularit. Otis
-        red mante patieris. Tumussilis alius inatien atiderum et? hucerce
-        rficiae autus es viuror pri terum it, nihiniceps, senium ne pero,
-        nertertus? in Etrarte ta rebunum sa nocret inum quonvo- liciae res?
-        Lostra rem dionsul oculles vitea renis, Cuppl. M. Nam re cupimus,
-        ublinteret vit.
+        La nouvelle de Jorge Luis Borges, Funès ou la mé- moire, présente un
+        personnage incapable d’oublier quoi que ce soit, doté alors d’une
+        mémoire infail- lible à la suite d’une chute à cheval, devenant alors
+        hypermnésique, incapable de filtrer ou éteindre le flux continuel
+        d’experiences et de souvenirs. Son existence, ses pensées, ses
+        perceptions sont para- sitées en permanence par un jaillissement de sou-
+        venirs d’une précision inutile. Il devient incapable de vivre avec une
+        telle mémoire, qu’il compare à un tas d’ordures, et s’enferme dans une
+        pièce vide pour ne plus rien enregistrer. Dans le monde surchargé de
+        Funes, « il n’y avait que des détails, presque immédiats.» Ainsi, une
+        façon de cristalliser la mémoire est la capacité à choisir, à
+        hiérarchiser, à créer des catégories pour se donner une vue d’ensemble ;
+        toutes choses que Funès est incapable de faire car il est en perma-
+        nence assailli par le flot des informations que lui im- pose sa mémoire.
+        On peut émettre l’hypothèse que la nouvelle de Borges, écrite dans les
+        années 40, annonce certains dangers comme celui de la satu- ration
+        mémorielle. Le flux continu, la disparition du prix du développement et
+        l’extension des mémoires numériques nous poussent à immortaliser les dé-
+        tails, mêmes les plus futiles de notre existence, et ne
+        contribuent-t-ils pas à rendre à nous rendre am- nésique par
+        l’hypermnésie? Que se passerait-il si, comme Funes, nous étions
+        incapables d’oublier ?
       </p>
     </div>
   );

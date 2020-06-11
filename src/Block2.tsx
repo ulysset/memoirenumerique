@@ -2,7 +2,7 @@ import React from "react";
 const Block2 = () => {
   return (
     <div
-      className="text-4xl text-center flex flex-row justify-center items-center space-x-3 flex-wrap m-auto w-11/12"
+      className="container text-4xl text-center flex flex-row justify-center items-center space-x-3 flex-wrap m-auto w-11/12"
       style={{ lineHeight: "2.5rem" }}
     >
       <span>Pourquoi</span>

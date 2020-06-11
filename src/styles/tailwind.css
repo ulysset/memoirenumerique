@@ -7,7 +7,16 @@ body {
 .text-pixel {
   font-family: "188 Sans Pixel 70", "Courier New", Courier, monospace;
 }
-
+.text-caption {
+  font-family: Roman, "Courier New", Courier, monospace;
+}
+p {
+  font-family: Roman, "Courier New", Courier, monospace;
+}
+.container {
+  max-width: 1000px;
+  margin: auto;
+}
 @tailwind components;
 /* Your own custom component styles */
 @media (prefers-reduced-motion: no-preference) {

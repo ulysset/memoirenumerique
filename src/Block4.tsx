@@ -2,7 +2,7 @@ import React from "react";
 
 const Block4 = () => {
   return (
-    <div>
+    <div className="container">
       <div className="grid grid-rows-6 grid-cols-3 gap-2 w-11/12 m-auto">
         <video
           className="row-span-5"
@@ -25,7 +25,7 @@ const Block4 = () => {
           loop
           muted
         />
-        <p className="col-span-3 text-xs">
+        <p className="col-span-3 text-xs text-caption">
           Fig 2: Mapping, extrait de la courte nouvelle Funes ou la mémoire.
         </p>
       </div>

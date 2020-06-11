@@ -7,3 +7,7 @@
   font-family: "188 Sans Pixel 70";
   src: url(./fonts/188-Sans-Pixel-70.otf) format("opentype");
 }
+@font-face {
+  font-family: "Roman";
+  src: url(./fonts/Ogg-Roman.otf) format("opentype");
+}
