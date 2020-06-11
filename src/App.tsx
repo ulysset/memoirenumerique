@@ -2,6 +2,7 @@ import React from "react";
 import "./styles/main.css";
 import ReactFullpage from "@fullpage/react-fullpage";
 import Block1 from "./Block1";
+import Block2 from "./Block2";
 
 function App() {
   return (
@@ -16,20 +17,7 @@ function App() {
               <Block1 />
             </div>
             <div className="section">
-              <p>Section 1 (welcome to fullpage.js)</p>
-              <button onClick={() => fullpageApi.moveSectionDown()}>
-                Click me to move down
-              </button>
-            </div>
-            <div className="section">
-              <p>Section 2</p>
-            </div>
-            <div className="section">
-              <div className="text-center">
-                <header className="bg-gray-900 min-h-screen flex flex-col items-center justify-center text-4xl text-white">
-                  <p>Mémoire numérique?</p>
-                </header>
-              </div>
+              <Block2 />
             </div>
           </ReactFullpage.Wrapper>
         );

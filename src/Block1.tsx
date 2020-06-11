@@ -2,8 +2,8 @@ import React from "react";
 
 const Block1 = () => {
   return (
-    <div className="bg-grey1 h-full w-full flex flex-col justify-between">
-      <div className="flex justify-between text-xl p-3">
+    <div className="bg-grey1 h-full w-full flex flex-col justify-between text-lg">
+      <div className="flex justify-between  p-3">
         <div className="text-center">
           Mars 19-27, 2020 <br />
           BNF Paris
@@ -23,7 +23,7 @@ const Block1 = () => {
         loop
         muted
       />
-      <div className="flex justify-between text-xl p-3">
+      <div className="flex justify-between p-3">
         <div className="text-center">
           Mars 03-15, 2020
           <br />
