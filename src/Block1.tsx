@@ -22,7 +22,6 @@ const Block1 = () => {
           src={process.env.PUBLIC_URL + "/videos/recherches-mouvement.mp4"}
           autoPlay
           loop
-          controls
           muted
         />
         <div className="flex justify-between p-3">

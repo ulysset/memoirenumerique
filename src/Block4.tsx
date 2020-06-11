@@ -9,7 +9,6 @@ const Block4 = () => {
           src={process.env.PUBLIC_URL + "/videos/R21.mp4"}
           autoPlay
           loop
-          controls
           muted
         />
         <video
@@ -17,7 +16,6 @@ const Block4 = () => {
           src={process.env.PUBLIC_URL + "/videos/R22.mp4"}
           autoPlay
           loop
-          controls
           muted
         />
         <video
@@ -25,7 +23,6 @@ const Block4 = () => {
           src={process.env.PUBLIC_URL + "/videos/R22_1.mp4"}
           autoPlay
           loop
-          controls
           muted
         />
         <p className="col-span-3 text-xs text-caption">

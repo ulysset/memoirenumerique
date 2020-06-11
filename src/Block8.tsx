@@ -30,7 +30,6 @@ const Block8 = () => {
           src={process.env.PUBLIC_URL + "/videos/recherches-mouvement10.mp4"}
           autoPlay
           loop
-          controls
           muted
         />
       </div>
