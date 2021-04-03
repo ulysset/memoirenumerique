@@ -14,7 +14,7 @@ function App() {
   return (
     <ReactFullpage
       //fullpage options
-      licenseKey={"YOUR_KEY_HERE"}
+      licenseKey={"65k8TJN%c7"}
       scrollingSpeed={1000} /* Options here */
       render={({ state, fullpageApi }) => {
         return (
